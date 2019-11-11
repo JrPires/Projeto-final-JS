@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container border">
+      <h3>Dados do Profissional</h3>
+      <form>
+        <div class="input-group input-group-sm mb-3">
+          <label>Cargo/Função:</label>
+          <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+        </div>
+        <div class="input-group input-group-sm mb-3">
+          <label>Equipe:</label>
+          <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+        </div>
+        <div class="input-group input-group-sm mb-3">
+          <label>Cidade:</label>
+          <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+        </div>
+        <div class="input-group input-group-sm mb-3">
+          <label>Data Avaliação:</label>
+          <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+        </div>
+        <hr />
+        
+        <div class="form-group row">
+          <label for="inputResponsavel" class="col-sm-2 col-form-label">Responsável RH</label>
+          <div class="col-sm-4">
+            <input type="text" class="form-control" id="inputResponsavel">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputFeedbeck" class="col-sm-2 col-form-label">Data Feedback</label>
+          <div class="col-sm-4">
+            <input type="text" class="form-control" id="inputFeedbeck">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="comment">Observações Gerais:</label>
+          <textarea class="form-control" rows="5" id="comment"></textarea>
+        </div>
+
+
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
