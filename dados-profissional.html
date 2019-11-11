@@ -8,44 +8,63 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="index.html">Profissional <span class="sr-only">(Página atual)</span></a>
+      <a class="nav-item nav-link active" href="avaliacao-empresa.html">Avaliação da Empresa</a>
+      <a class="nav-item nav-link active" href="nome-profissional.html">Nome Profissional</a>
+      <a class="nav-item nav-link active" href="dados-profissional.html">Dados do Profissional</a>
+      <a class="nav-item nav-link active" href="avaliacao-processo.html">Avaliação do Profissional</a>
+    </div>
+  </div>
+</nav>
+
     <div class="container border">
       <h3>Dados do Profissional</h3>
       <form>
-        <div class="input-group input-group-sm mb-3">
+        <div class="input-group input-group-sm ">
           <label>Cargo/Função:</label>
           <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
         </div>
-        <div class="input-group input-group-sm mb-3">
+        <div class="input-group input-group-sm">
           <label>Equipe:</label>
           <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
         </div>
-        <div class="input-group input-group-sm mb-3">
+        <div class="input-group input-group-sm">
           <label>Cidade:</label>
           <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
         </div>
-        <div class="input-group input-group-sm mb-3">
+        <div class="input-group input-group-sm">
           <label>Data Avaliação:</label>
           <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
         </div>
         <hr />
-        
-        <div class="form-group row">
-          <label for="inputResponsavel" class="col-sm-2 col-form-label">Responsável RH</label>
-          <div class="col-sm-4">
+
+        <div class="row">
+          <div class="col-sm-6">
+        <div class="form-group">
+          <label for="inputResponsavel" class="col-sm-6 col-form-label">Responsável RH</label>
+          <div class="col-sm-6">
             <input type="text" class="form-control" id="inputResponsavel">
           </div>
         </div>
-        <div class="form-group row">
-          <label for="inputFeedbeck" class="col-sm-2 col-form-label">Data Feedback</label>
-          <div class="col-sm-4">
+        </div>
+        <div class="col-sm-6">
+        <div class="form-group">
+          <label for="inputFeedbeck" class="col-sm-6 col-form-label">Data Feedback</label>
+          <div class="col-sm-6">
             <input type="text" class="form-control" id="inputFeedbeck">
           </div>
         </div>
+        </div>
+
+        <div class="col-sm-6">
         <div class="form-group">
           <label for="comment">Observações Gerais:</label>
           <textarea class="form-control" rows="5" id="comment"></textarea>
         </div>
-
+      </div>
 
       </form>
     </div>
